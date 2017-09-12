@@ -1,6 +1,6 @@
 {
   "name": "streamfs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "stream things from and to disk",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
