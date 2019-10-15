@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/streamfs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "stream things from and to disk",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
