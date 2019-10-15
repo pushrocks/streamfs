@@ -3,5 +3,15 @@
     "npmGlobalTools": [
       "npmts"
     ]
+  },
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "pushrocks",
+      "gitrepo": "streamfs",
+      "shortDescription": "stream things from and to disk",
+      "npmPackagename": "@pushrocks/streamfs",
+      "license": "MIT"
+    }
   }
 }

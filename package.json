@@ -1,5 +1,5 @@
 {
-  "name": "streamfs",
+  "name": "@pushrocks/streamfs",
   "version": "1.0.6",
   "description": "stream things from and to disk",
   "main": "dist/index.js",
@@ -7,12 +7,28 @@
   "author": "Lossless GmbH",
   "license": "MIT",
   "scripts": {
-    "test": "(npmts)"
+    "test": "(tstest test/)",
+    "build": "(tsbuild)"
   },
   "devDependencies": {
-    "tapbundle": "^1.0.13"
+    "@gitzone/tsbuild": "^2.1.17",
+    "@gitzone/tstest": "^1.0.28",
+    "@pushrocks/tapbundle": "^3.0.13",
+    "@types/node": "^12.7.12",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0"
   },
-  "dependencies": {
-    "typings-global": "^1.0.16"
-  }
+  "dependencies": {},
+  "private": true,
+  "files": [
+    "ts/**/*",
+    "ts_web/**/*",
+    "dist/**/*",
+    "dist_web/**/*",
+    "dist_ts_web/**/*",
+    "assets/**/*",
+    "cli.js",
+    "npmextra.json",
+    "readme.md"
+  ]
 }
