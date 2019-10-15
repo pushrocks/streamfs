@@ -19,7 +19,7 @@
     "tslint-config-prettier": "^1.18.0"
   },
   "dependencies": {},
-  "private": true,
+  "private": false,
   "files": [
     "ts/**/*",
     "ts_web/**/*",
